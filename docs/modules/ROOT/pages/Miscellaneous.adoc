@@ -1,0 +1,78 @@
+= Miscellaneous
+[.tabset]
+
+.This is the optional title of the table
+|===
+|Name of Column 1 |Name of Column 2
+
+|Cell in column 1, row 1
+|Cell in column 2, row 1
+
+|Cell in column 1, row 2
+|Cell in column 2, row 2
+|===
+
+[{tabs}]
+====
+Tab 1 Title::
++
+--
+This is the content of the first tab.
+
+Another paragraph in the first tab.
+
+[source,console]
+----
+$ a code block
+----
+--
+
+Tab 2 Title::
++
+This is the content of the second tab.
+====
+
+
+[#logging]
+== Logging
+`ConnectivityBluetooth` allows injecting a logging interface:
+
+[tabs]
+====
+Kotlin::
++
+--
+[source,kotlin]
+----
+Logger.addLogDelegate(myCustomLogDelegate)
+----
+--
+Swift::
++
+--
+[source,swift]
+----
+Logger.Companion().addLogDelegate(delegate: myCustomLogDelegate)
+----
+--
+====
+
+
+
+
+
+[tabs]
+====
+
+Title A::
++
+--
+Description about Title A
+--
+
+Title B::
++
+--
+Description about Title B
+--
+====

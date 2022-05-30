@@ -1,0 +1,43 @@
+= AsciiDoc: Inline text styles
+:experimental:
+
+. A *bold tag* in AsciiDoc is equivalent to <strong> tag in HTML.
+. _The Tragedy of Julius Caesar_ is a history play and tragedy by *William Shakespeare* first performed in 1599.
+. When you want to #highlight a text#.
+. A superscript or subscript can be used while writing a mathematical equation like,
+Superscript: x^2^ + y^2^ = z^2^ +
+Subscript: C~6~H~12~O~6~
+. Monospace: `a monospace  is used to write code content  usually.`
+. Curved Quotations:
+ .. Single Quotes: '`Live a life that is well balanced`'
+.. Double Quotes: "`Live a life that is well balanced`"
+. Monospaced Bold Italic: `*_We tried all three together_*`
+
+
+
+
+
+
+
+
+
+
+
+== UI Macro
+
+Press the btn:[Submit] button when you are finished the survey.
+
+Select a file in the file navigator and click btn:[Open].
+
+'''
+Press kbd:[esc] to exit insert mode.
+
+Use the shortcut kbd:[Ctrl+T] to open a new tab in your browser.
+
+kbd:[Ctrl+Shift+N] will open a new incognito window.
+
+'''
+To save the file, select menu:File[Save].
+
+Select menu:View[Zoom > Reset] to reset the zoom level to the default setting.
+

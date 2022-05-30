@@ -1,0 +1,29 @@
+= Links And Cross-References
+
+.Referential
+[[Later-used]]
+This sentence is referenced later.
+
+. An absolute address can be added with their https links: +
+https://google.com[Google]
+or
+https://google.com
+. A cross-reference is referring to a page that is present in the same module. The reference can be done using xref or link tag as: +
+xref:InlineTextStyles.adoc[]
+or
+link:HeadersAndBlocks.adoc[]
+. A Section/Block reference can be added in two-steps,
+.. Add an id at the source block you want to refer as,
+$$[[BlockName]]$$
+.. Now refer the above defined block id at the destination as,
+$$<<BlockName>>
+or
+xref:BlockName[]$$
+
+example : <<Later-used>>
+
+
+
+
+
+

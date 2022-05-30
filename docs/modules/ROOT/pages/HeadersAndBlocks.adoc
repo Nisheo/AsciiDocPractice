@@ -1,0 +1,52 @@
+= AsciiDoc: Headers, Attributes and Lists
+:navtitle: Introduction
+Adam Eve Levine <adam@eva.com>
+:sectnums:
+:sectlinks:
+:toc:
+:myAtribute: "@@Hello! this is an example of custom attribute@@"
+
+== Second Header
+
+This paragraph is just put here to explain the different tags and syntax  of AsciiDoc. The one-lines and two lines here will help to build the content.
+
+=== Third Header
+
+This paragraph is just put here to explain the different tags and syntax  of AsciiDoc. +
+The one-lines and two lines here will help to build the
+content.
+
+'''
+***
+
+
+
+.Hardline Break
+This is first +
+line and this is second without any break.
+
+{myAtribute}
+
+== List
+=== Ordered List
+. Coffee
+. Tea
+.. Green Tea
+... Mint
+... Organic Green
+.. Black Tea
+. Water
+
+=== Unordered List
+* First Unordered
+** Nested First Unordered
+* Second
+
+
+
+
+
+
+
+
+

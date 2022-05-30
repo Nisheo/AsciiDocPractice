@@ -1,0 +1,28 @@
+= Add: Images, code snippets
+
+* Including a file or Code Snippets
+----
+include::file.txt[]
+----
+* Include code snippet +
+[source,kotlin]
+----
+include::partial$file.kt[]
+----
+<.> Imports the library
+<.> Imports the library
+
+
+
+* Include Images  +
+image:asciidoc-og(1).png[Image Broke,100,100]
+
+'''
+Collapsible block
+
+.Name of the menu
+[%collapsible]
+====
+This is the content.
+====
+

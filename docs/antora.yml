@@ -1,0 +1,5 @@
+  name: "PracticeExample"
+  version: 'master'
+  start_page: ROOT:HeadersAndBlocks.adoc
+  nav:
+    - modules/ROOT/nav.adoc
