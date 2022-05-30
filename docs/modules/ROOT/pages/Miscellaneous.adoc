@@ -1,5 +1,4 @@
 = Miscellaneous
-[.tabset]
 
 .This is the optional title of the table
 |===
@@ -12,9 +11,6 @@
 |Cell in column 2, row 2
 |===
 
-[#logging]
-== Logging
-`ConnectivityBluetooth` allows injecting a logging interface:
 
 [tabs]
 ====
@@ -23,7 +19,7 @@ Kotlin::
 --
 [source,kotlin]
 ----
-Logger.addLogDelegate(myCustomLogDelegate)
+println("Hello World")
 ----
 --
 Swift::
@@ -31,27 +27,9 @@ Swift::
 --
 [source,swift]
 ----
-Logger.Companion().addLogDelegate(delegate: myCustomLogDelegate)
+print("Hello World")
 ----
 --
 ====
 
 
-
-
-
-[tabs]
-====
-
-Title A::
-+
---
-Description about Title A
---
-
-Title B::
-+
---
-Description about Title B
---
-====

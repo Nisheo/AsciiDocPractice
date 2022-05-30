@@ -1,8 +1,8 @@
 = Text span, built-in roles and Special character
-:experimental:
 
 == Text Span
-The text here [.underline]#will be underlined.#
+The text here [.underline]#will be underlined.# +
+
 A cat can [.line-through]#roar# meow only.
 
 == Special Characters
@@ -11,29 +11,21 @@ Registered : (R) +
 Trademark : (TM) +
 -> <=  &dagger; &euro; &loz;
 
+$$(C)$$
+
 '''
-
-
-
-
-
-
-
-
-
 == Admonitions
 Asciidoctor comes with five built-in admonitions.
 
 CAUTION: Don't stick forks in electric sockets.
 
 [TIP]
-====
+--
 After someone sticks a fork in a socket:
 
 . Take the fork out from circuit.
 . Reset the circuit in the dark basement.
-
-====
+--
 
 WARNING: Never go into the basement.
 
