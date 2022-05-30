@@ -1,2 +1,6 @@
 * xref:HeadersAndBlocks.adoc[]
 * xref:InlineTextStyles.adoc[]
+* xref:BlocksAndTextSpan.adoc[]
+* xref:LinksAndCrossReferences.adoc[]
+* xref:IncludeCodeAndImage.adoc[]
+* xref:Miscellaneous.adoc[]
