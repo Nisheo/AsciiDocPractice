@@ -12,27 +12,6 @@
 |Cell in column 2, row 2
 |===
 
-[{tabs}]
-====
-Tab 1 Title::
-+
---
-This is the content of the first tab.
-
-Another paragraph in the first tab.
-
-[source,console]
-----
-$ a code block
-----
---
-
-Tab 2 Title::
-+
-This is the content of the second tab.
-====
-
-
 [#logging]
 == Logging
 `ConnectivityBluetooth` allows injecting a logging interface:

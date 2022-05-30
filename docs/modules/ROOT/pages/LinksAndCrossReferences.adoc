@@ -20,7 +20,8 @@ $$<<BlockName>>
 or
 xref:BlockName[]$$
 
-example : <<Later-used>>
+example : <<Later-used>> +
+xref:Later-used[]
 
 
 

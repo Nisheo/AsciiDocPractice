@@ -2,19 +2,21 @@
 
 * Including a file or Code Snippets
 ----
-include::file.txt[]
+include::partial$file.txt[]
 ----
-* Include code snippet +
+
+* Include code snippet
 [source,kotlin]
 ----
 include::partial$file.kt[]
 ----
-<.> Imports the library
-<.> Imports the library
+<.> Prints "Hello World" to the console.
+<.> Prints "Ugly" on the console.
 
+'''
+* Include Images
 
-
-* Include Images  +
+.AsciiDoc Logo
 image:asciidoc-og(1).png[Image Broke,100,100]
 
 '''
@@ -23,6 +25,8 @@ Collapsible block
 .Name of the menu
 [%collapsible]
 ====
-This is the content.
+* [ ] unchecked
+* [*] checked
 ====
+
 
